@@ -14,7 +14,7 @@ let CuTime = () => {
   }, []);
   return (
     <p className="fw-medium">
-      This is the current time:{time.toLocaleDateString()} -{" "}
+      This is the current time:  {time.toLocaleDateString()} - {" "}
       {time.toLocaleTimeString()}
     </p>
   );
